@@ -1,0 +1,30 @@
+main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+::-webkit-input-placeholder {
+    text-align: center;
+ }
+ 
+ :-moz-placeholder { /* Firefox 18- */
+    text-align: center;  
+ }
+ 
+ ::-moz-placeholder {  /* Firefox 19+ */
+    text-align: center;  
+ }
+ 
+ :-ms-input-placeholder {  
+    text-align: center; 
+ }
+
+ #img-search{
+    margin-bottom: 20px;
+}
+
+.btn-get-img{
+    margin-top: 20px;;
+}
